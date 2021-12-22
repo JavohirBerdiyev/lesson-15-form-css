@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+  background-image: url('https://picsum.photos/id/870/1200/780');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  backdrop-filter: blur(4px);
+}
+
+.form-content {
+  width: 500px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+}
+.form-title {
+  margin-bottom: 20px;
+}
+
+.form-item {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+}
+
+input:focus {
+  outline: 1px solid rgba(2, 60, 221, 0.877);
+}
+
+.form-input {
+  color: red;
+  font-size: 25px;
+}
+
+input[type="text"] {
+  width: 80%;
+}
+
+.btn {
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  cursor: pointer;
+}
+
+#lang {
+  margin-bottom: 10px;
+}
+
+/* 
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"] ~ label::before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  margin-right: 15px;
+  border-radius: 50%;
+  border: 2px solid blue;
+  display: inline-block;
+}
+
+input[type="radio"]:checked ~ label::before {
+  background-color: blue;
+} */
